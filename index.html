@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sargam - Unleash the power of music wherever you go. </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="resources/logo.webp" alt="Sargam"><span>Sargam</span></li>
+            <li>Home</li>
+            <li>About</li>
+    </ul>
+</nav>
+<div class="container">
+    
+    <div class="song-list">
+      <div>
+        <div class="songItem">
+            <img src="resources/Vision-bella.jpg" alt="1">
+            <span>Vision</span>
+            <span class="songListPlay"><span class="timeStamp">2:54 <i id="0" class="bi songItemPlay bi-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img src="resources/sinner.jpg" alt="1">
+            <span>Sinner</span>
+            <span class="songListPlay"><span class="timeStamp">3:25 <i id="1" class="bi songItemPlay bi-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img src="resources/eh.webp" alt="1">
+            <span>Everybody Hurt's</span>
+            <span class="songListPlay"><span class="timeStamp">2:51 <i id="2" class="bi songItemPlay bi-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img src="resources/52.jpg" alt="1">
+            <span>52 Bars</span>
+            <span class="songListPlay"><span class="timeStamp">3:42 <i id="3" class="bi songItemPlay bi-play-circle"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img src="resources/talwinder.jpg" alt="1">
+            <span>Your Eye</span>
+            <span class="songListPlay"><span class="timeStamp">3:30 <i id="4" class="bi songItemPlay bi-play-circle"></i></span></span>
+        </div>
+       
+      </div>
+    </div>
+    <div class="song-banner"></div>
+</div>
+<div class="bottom">
+    <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+    <div class="icons">
+        <i class="bi bi-skip-backward-circle" style="font-size: 30px;" id="prev"></i>
+        <i class="bi  bi-play-circle" style="font-size: 30px;" id="masterPlay"></i>
+        <i  class="bi bi-fast-forward-circle" style="font-size: 30px;" id="next"></i>
+    </div>
+
+    <div class="songInfo">
+        <img src="resources/musicc.gif" width="42px" alt="gif" id="gif"> <span id="masterSongInfo">Vision</span>
+        
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

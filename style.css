@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+
+
+
+body{
+    background-color: #fca848;
+    background-image: url(resources/bg.jpg);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 2.9rem;
+    /* background-color: black; */
+    /* background-color:#155a9f; */
+    color: white;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px ;
+} 
+
+.container{
+    min-height: 59vh;
+    /* background-color: black; */
+    /* backdrop-filter: blur(10px); */
+    color: #fbf7de;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(resources/bg.jpg);
+    
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: transparent;
+    /* background-image: url(resources/bg.jpg); */
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 12px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+width: 80vw;
+cursor: pointer;
+
+}
+
+.songItem{
+height: 55px;
+display: flex;
+background-color: white;
+width: 150%;
+color: black;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 15px;
+font-family: 'Varela Round', sans-serif;
+}
+
+.songItem img{
+width: 50px;
+margin: 0 23px;
+border-radius: 50%;
+}
+
+.timeStamp{
+    margin: 0 23px;
+}
+
+.timeStamp i{
+    font-size: 17px;
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 9vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
